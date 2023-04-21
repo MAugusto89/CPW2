@@ -1,0 +1,30 @@
+/*HSL
+Hue
+Saturation
+Lightness*/
+body{
+    margin: 0;
+    padding: 20px;
+    color: white;
+}
+#color-display-rgba{
+    background-color: black;
+    margin: 20px auto;
+    width: 500px;
+    height: 500px;
+}
+#color-ranges-rgba{
+    margin: auto;
+    text-align: center;
+}
+label{
+    font-family: 'regular';
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+input[type=range]{
+    width: 200px;
+    margin-right: 10px;
+    cursor: pointer;
+}
